@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="log-in.css">
+</head>
+<body>
+    <h2> Login Form</h2>
+    <form action="./sign-in" method="post">
+		<div class="imgcontainer">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsqlLXvQzap9hX2xdgmBKa-kxmoKP4G2ppPg&usqp=CAU" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+        <label for="useremail">Email</b></label>
+        <input type="text" placeholder="Enter your email" name="email"  required/>
+
+        <label for="password">Password</b></label>
+        <input type="password" placeholder="Enter your password" name="password"  required/>
+        
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+    
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+	</form>
+</body>
+</html>
